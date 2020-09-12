@@ -7,6 +7,10 @@ html {
     background: url('/assets/images/login_bg.jpg')no-repeat center/cover;
 }
 
+.logo {
+    margin-top: 30px;
+}
+
 .reg_box {
     height: 310px;
     width: 400px;
@@ -23,16 +27,11 @@ html {
     background: url('/assets/images/login_title.png')no-repeat center;
 }
 
-.reg {
-    display: none;
-}
-
 .layui-btn {
     background-color: #1E9FFF;
 }
 
-#dl_zh,
-#reg_zh {
+.layui-form-item a {
     font-size: 12px;
     display: flex;
     justify-content: flex-end;
@@ -42,10 +41,14 @@ html {
     position: relative;
 }
 
-.layui-form-item i {
+.layui-icon {
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+.reg {
+    display: none;
 }
 
 input[placeholder] {
