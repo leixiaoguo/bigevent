@@ -21,6 +21,8 @@ $(function () {
         })
     }
     // 获取文章详情数据
+    var search = location.search.split('=')
+    var id = search[1]
     function article() {
         $.ajax({
             method: 'get',
